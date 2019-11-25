@@ -10,7 +10,9 @@ $category = $_POST['category'];
 $sql = "insert into login(username,pwd,gender,category) values ('$name', '$password', '$gender', '$category')";
 
 mysqli_query($conn, $sql);
+    header("Location: login.php");
     ?>
+    
 </body>
 </html>
 
