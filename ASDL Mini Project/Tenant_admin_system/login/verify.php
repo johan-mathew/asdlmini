@@ -1,5 +1,5 @@
 <?php
-include 'confi.php';
+include '..\config\confi.php';
 $conn = OpenCon();
 session_start();
 $name = $_POST['username'];
@@ -12,15 +12,15 @@ $_SESSION['category'] = $res['category'];
 if($res['username']==$name){
     
     if($res['category']=='manager'){
-     header("Location: manage.php");
+     header("Location: ..\manager\manage.php");
     echo "jajjajaja";
     }
     elseif($res['category']=='staff'){
         echo  "jajajja";
-       header("Location: staff.php");
+       header("Location: ..\staff\staff.php");
     }
-    else{
-        header("Location: tenant.php");
+    elseif($res['category']=='tenant'){
+        header("Location: ..\user\user.php");
     }
     }
 else

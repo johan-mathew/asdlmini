@@ -29,7 +29,7 @@ label
         <div>
         <h3>View Info</h3>
         <h4>Enter tenant id to view</h4>
-        <form action="main-info.php" method="post">
+        <form action="..\viewing_info\main-info.php" method="post">
                 <label for="tid">Tenant ID</label>
                 <input type="text" name="tid">
                 <button type="submit">VIEW</button>

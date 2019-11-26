@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include 'confi.php';
+include '..\config\confi.php';
 $conn = OpenCon();
 $id=$_SESSION['pid'];
 $sql="select * from visitor where tid=$id";
@@ -34,7 +34,7 @@ while($res = mysqli_fetch_assoc($rok)){
     
     </head>
 <body>
-     <a class="button" href="manage.php">BACK</a>
+     <a class="button" href="..\manager\manage.php">BACK</a>
       
 </body>
 </html>

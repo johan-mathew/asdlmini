@@ -19,8 +19,8 @@
             <p>The best apartment managinng software platform.</p>
        
             <div>
-                <a class="button" href="login.php">LOGIN</a>
-                <a style="margin-left: 10px;" class="button" href="register.php">SIGNUP</a>
+                <a class="button" href="login\login.php">LOGIN</a>
+                <a style="margin-left: 10px;" class="button" href="register\register.php">SIGNUP</a>
             </div>
        
         </div>

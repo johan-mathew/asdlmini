@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'confi.php';
+include '..\config\confi.php';
 $conn = OpenCon();
 
 $tid = $_POST['tid'];
@@ -19,8 +19,8 @@ if($res['tid']!=$tid)
        <div class="split left">
        <div style="margin-top: 55%">
        
-       <a class="button" href="bills.php">VIEW BILLS</a>
-         <a style="margin-left: 10px;" class="button" href="visitor.php">VISITOR INFO</a>
+       <a class="button" href="view_bills.php">VIEW BILLS</a>
+         <a style="margin-left: 10px;" class="button" href="view_visitor.php">VISITOR INFO</a>
            </div>    
            
        </div>

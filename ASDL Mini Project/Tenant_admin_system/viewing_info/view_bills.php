@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include 'confi.php';
+include '..\config\confi.php';
 $conn = OpenCon();
 $id=$_SESSION['pid'];
 $sql="select * from bills where tid=$id";
@@ -31,7 +31,7 @@ $re= mysqli_fetch_assoc($result);
    
     </head>
 <body>
-     <a class="button" href="manage.php">BACK</a>
+     <a class="button" href="..\manager\manage.php">BACK</a>
       
 </body>
 </html>

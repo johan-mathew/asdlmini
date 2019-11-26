@@ -1,6 +1,6 @@
 <html><body>
 <?php
-include 'confi.php';
+include '..\config\confi.php';
 $conn = OpenCon();
 session_start();
 $name = $_POST['username'];
@@ -10,7 +10,7 @@ $category = $_POST['category'];
 $sql = "insert into login(username,pwd,gender,category) values ('$name', '$password', '$gender', '$category')";
 
 mysqli_query($conn, $sql);
-    header("Location: login.php");
+    header("Location: ..\login\login.php");
     ?>
     
 </body>

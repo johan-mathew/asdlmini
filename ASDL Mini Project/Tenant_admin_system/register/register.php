@@ -1,5 +1,5 @@
 <?php
-include 'confi.php';
+include '..\config\confi.php';
 $conn = OpenCon();
 session_start();
 
