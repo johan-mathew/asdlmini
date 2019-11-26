@@ -15,7 +15,7 @@ $tid = $_POST['tid'];
 $sql = "insert into visitor(vname,phno,time_in,time_out,date,fno,purpose,tid) values ('$vname', '$phno', '$time_in', '$time_out','$date','$fno','$purpose','$tid')";
 
 mysqli_query($conn, $sql);
-    header("Location: manage.php");
+    header("Location: staff.php");
     ?>
     
 </body>
