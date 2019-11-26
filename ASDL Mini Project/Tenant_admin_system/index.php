@@ -3,7 +3,7 @@
         <title>
             CASEGGIATO
         </title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_index.css">
     </head>
     <body>
         <div class="slider">
@@ -11,7 +11,9 @@
                 CASEGGIATO!
             </h1>
             <div class="showup">
-                 Escape->
+                <div class="coloor">
+                 Escape  --->
+                </div>
             </div>
             <div class="reveal">
                 <span>into your happy place!</span>

@@ -20,5 +20,6 @@
 <h2>ADD INFO</h2>
        <a style="margin-left: 10px;" class="button" href="add_visitor.php">VISITOR INFO</a>
          <a style="margin-left: 10px;" class="button" href="add_bill.php"> BILL Info</a>
+          <a style="margin-left: 10px;" class="button" href="..\index.php"> Home</a>
     </body>
 </html>

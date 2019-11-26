@@ -11,11 +11,10 @@ $rok=mysqli_query($conn, $sql);
 $sq="select * from apartment where tid=$id";
 $result=mysqli_query($conn, $sq);
 $re= mysqli_fetch_assoc($result);
-$a=1;
 ?>
 <html>
     <head>
-       <link rel="stylesheet" href="view_visitor.css">
+       <link rel="stylesheet" href="user_visit.css">
     
     </head>
 <body>
@@ -23,9 +22,10 @@ $a=1;
   <h1 style="text-align:center;" >Visitor List</h1>
 <div class="disp"><div class="adjust">
 <?Php
+   
 while($res = mysqli_fetch_assoc($rok)){
                 echo "<br><br>";
-                
+                 $a=1;
                 echo "<h2 style='font-family: verdana;'>Visitor &nbsp". $a ."</h2>";
      echo "<hr size='2px' color='black'>";
     echo "<ul>Date: &nbsp". $res["date"]. "</ul>";
@@ -45,7 +45,7 @@ while($res = mysqli_fetch_assoc($rok)){
 }
 ?></div>
 </div>
-   <a style="margin-top:10px; margin-left:50%;" class="button" href="main-info.php">BACK</a>
+   <a style="margin-top:10px; margin-left:50%;" class="button" href="user.php">BACK</a>
       <br><br><br>
 </body>
 </html>

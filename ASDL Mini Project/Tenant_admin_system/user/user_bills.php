@@ -23,16 +23,16 @@ $re= mysqli_fetch_assoc($result);
                 echo "<ul>LPG: &nbsp". $res["lpg"]. " Rs</ul>";
                $total=$res["water"]+$res["lpg"]+$res["electricity"]+$res["maintanence"];
                  echo "<ul><H1>Total Bill: &nbsp". $total. " Rs</ul></h1>";
-    $_SESSION['id'] = $id;
+    
 ?>
 <html>
     <head>
-        <link rel="stylesheet" href="bills.css">
+        <link rel="stylesheet" href="../viewing_info/bills.css">
    
     </head>
 <body>
     
-     <a class="button" href="main-info.php">BACK</a>
+     <a class="button" href="user.php">BACK</a>
       
 </body>
 </html>
