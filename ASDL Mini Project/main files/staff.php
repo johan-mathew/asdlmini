@@ -18,9 +18,7 @@
         </div>
         
 <h2>ADD INFO</h2>
-       <a style="margin-left: 10px;" class="button" href="add_apartment.php">APARTMENT INFO</a>
-         
-    
-            
+       <a style="margin-left: 10px;" class="button" href="add_visitor.php">VISITOR INFO</a>
+         <a style="margin-left: 10px;" class="button" href="visitor.php"> BILL Info</a>
     </body>
 </html>

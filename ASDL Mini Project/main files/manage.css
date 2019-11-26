@@ -12,7 +12,24 @@ body{
     -webkit-transform: translate3d(0,0,0);
     overflow: hidden;
 }
-
+ 
+.form
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+input
+{
+    display: block;
+    margin: 20px 0;
+    width: 300px;
+    padding: 10px;   
+}
+label
+{
+    font-size: 20px;
+}
 .button{
     font-size: 20px;
     font-style: helvetica;
@@ -26,6 +43,6 @@ body{
     border-radius: 4px;
 }
 .button:hover{
-    background-color:skyblue; 
+    background-color:dimgrey; 
 
 }
