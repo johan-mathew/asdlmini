@@ -1,0 +1,57 @@
+body{
+    background: url("14.jpg");
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 70px 0;
+}
+.form
+{
+    height: 100%;
+    background: white;
+    opacity: 0.7;
+    z-index: 100;
+    border: 10px solid black;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input
+{
+    background: black;
+    border-radius: 10px;
+   color: white;
+    font-size: 20px;
+    font-family: verdana;
+    display: block;
+    margin: 20px 0;
+    width: 300px;
+    padding: 10px;   
+}
+input:focus{
+    
+    background: black;
+}
+label
+{
+    font-size: 30px;
+}
+
+button
+{
+    font-size: 20px;
+    background: crimson;
+    color: white;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+button:hover{
+    background: black;
+    
+}
