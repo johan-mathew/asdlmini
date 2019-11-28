@@ -1,0 +1,21 @@
+body{
+    background: url("21.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.m {
+      text-shadow: 2px 2px black;
+     background-image: linear-gradient(black 32.4%, #ACB6E5 98.8% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: verdana;
+    letter-spacing: 10px;
+    font-size: 25px;
+    z-index: 1000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
